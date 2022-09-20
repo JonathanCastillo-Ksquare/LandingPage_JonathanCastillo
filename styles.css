@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Sebino Regular';
-    src: url('../Fuentes/Sebino\ Regular.ttf') format('truetype');
+    src: url('./Fuentes/Sebino-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Galano Grotesque Alt';
-    src: url('../Fuentes/Galano\ Grotesque\ Alt.ttf') format('truetype');
+    src: url('./Fuentes/Galano-Grotesque-Alt.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
