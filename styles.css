@@ -1,13 +1,15 @@
 @font-face {
-    font-family: "Sebino Regular";
-    src: url("//db.onlinewebfonts.com/t/4e2a44223ab20891f50f16b7f54b595f.eot");
-    src: url("//db.onlinewebfonts.com/t/4e2a44223ab20891f50f16b7f54b595f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4e2a44223ab20891f50f16b7f54b595f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4e2a44223ab20891f50f16b7f54b595f.woff") format("woff"), url("//db.onlinewebfonts.com/t/4e2a44223ab20891f50f16b7f54b595f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4e2a44223ab20891f50f16b7f54b595f.svg#Sebino Regular") format("svg");
+    font-family: 'Sebino Regular';
+    src: url('../Fuentes/Sebino\ Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
-    font-family: "Galano Grotesque Alt";
-    src: url("//db.onlinewebfonts.com/t/cbd563bae4ec8a0df921c6b5c616618c.eot");
-    src: url("//db.onlinewebfonts.com/t/cbd563bae4ec8a0df921c6b5c616618c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cbd563bae4ec8a0df921c6b5c616618c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cbd563bae4ec8a0df921c6b5c616618c.woff") format("woff"), url("//db.onlinewebfonts.com/t/cbd563bae4ec8a0df921c6b5c616618c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cbd563bae4ec8a0df921c6b5c616618c.svg#Galano Grotesque Alt") format("svg");
+    font-family: 'Galano Grotesque Alt';
+    src: url('../Fuentes/Galano\ Grotesque\ Alt.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
 
 * {
