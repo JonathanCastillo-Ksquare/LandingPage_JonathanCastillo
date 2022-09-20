@@ -1,0 +1,261 @@
+@import url(//db.onlinewebfonts.com/c/4e2a44223ab20891f50f16b7f54b595f?family=Sebino+Regular);
+@import url(//db.onlinewebfonts.com/c/cbd563bae4ec8a0df921c6b5c616618c?family=Galano+Grotesque+Alt);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #e3e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorPrincipal {
+    margin-top: 2.7em;
+    height: 34.1em;
+    width: 74em;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.contenedorInformacion {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Sebino Regular;
+}
+
+form {
+    width: 17.5em;
+}
+
+#correo,
+#contra {
+    width: 100%;
+    padding: 0.5em 0.5em 0.5em 0.7em;
+    border: 1.35px solid #e4e2e2;
+    border-radius: 6px;
+    margin-top: 0.3em;
+}
+
+#correo::placeholder,
+#contra::placeholder {
+    color: #c5c5c9;
+    font-size: 0.89em;
+    font-weight: bold;
+}
+
+.titulo {
+    font-size: 1.98em;
+    margin-bottom: 0.25em;
+}
+
+.subtitulo {
+    font-size: 0.82em;
+    font-weight: bold;
+    color: #c5c5c9;
+    margin-bottom: 1.7em;
+}
+
+.labelComun {
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+
+
+label+a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+
+#cbox {
+    margin: 0%;
+    display: none;
+    vertical-align: bottom;
+}
+
+input[type="checkbox"]+label:before {
+    content: "\2714";
+    border: 1.35px solid #e4e2e2;
+    border-radius: 0.3em;
+    display: inline-block;
+    width: 1em;
+    height: 0.72em;
+    padding-left: 0.2em;
+    padding-bottom: 0.5em;
+    margin-right: 0.5em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+}
+
+input[type="checkbox"]:checked+label:before {
+    color: #000000;
+}
+
+[type="checkbox"]+label {
+    margin-right: 4.5em;
+}
+
+.inputComun>input {
+    margin-bottom: 0.9em;
+}
+
+#signIn {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 1.2em;
+    background-color: #101828;
+    color: #cdd3df;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.boton:last-of-type {
+    width: 100%;
+    margin-top: 0.8em;
+    background-color: white;
+    color: #75767d;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 1.35px solid #e4e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.86em;
+}
+
+#pie {
+    font-size: 0.7em;
+    width: fit-content;
+    margin: 2.5em auto;
+    font-weight: bold;
+    color: #c5c5c9;
+
+}
+
+p>a {
+    margin: 0%;
+    color: black;
+    text-decoration: underline;
+}
+
+#googleIcono {
+    height: 2em;
+    width: 2em;
+}
+
+#signIn:hover,
+.boton:last-of-type:hover {
+    cursor: pointer;
+}
+
+.contenedorImagen {
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1518855706573-84de4022b69b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#contenedorTexto {
+    width: 91.5%;
+    height: 12em;
+    margin: 20.5em auto;
+    border-radius: 2px;
+    box-shadow: 0 10px 30px #000;
+    border: 1px solid #ffffff40;
+    font-family: Galano Grotesque Alt;
+}
+
+.filter {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.2);
+}
+
+#texto {
+    height: 50%;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    padding-left: 0.87em;
+    padding-right: 0.87em;
+    padding-top: 0.95em;
+    font-size: 0.95em;
+
+}
+
+footer {
+    height: 50%;
+    width: 100%;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#datosPersona {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    padding-left: 0.87em;
+}
+
+#nombre {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0.78em;
+}
+
+#posicion {
+    font-size: 0.55em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+#empresa {
+    font-size: 0.55em;
+}
+
+#estrellas {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    right: -50%;
+    top: -100%;
+    display: inline-block;
+    margin: 0;
+}
+
+#iconos {
+    height: 20%;
+    width: 100%;
+    padding-left: 17.9em;
+    font-size: 0.67em;
+    padding-right: 1.2em;
+}
+
+#flechas {
+    height: 80%;
+    width: 100%;
+    padding-left: 4.8em;
+    font-size: 2.3em;
+    padding-right: 0.2em;
+    padding-top: 0.4em;
+    margin-top: 0;
+}
